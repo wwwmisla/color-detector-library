@@ -1,0 +1,24 @@
+# Este arquivo define palavras-chave e sintaxe para a biblioteca Color_Detector.
+
+# Sintaxe:
+# palavra_chave     TIPO; Descrição
+
+# Palavras-chave e Descrições
+Color_Detector      KEYWORD1; Biblioteca para detecção de cores com base em leitura de sensor LDR.
+
+# Funções de Controle
+begin               KEYWORD2; Inicia a biblioteca Color_Detector e configura os pinos necessários.
+
+detectColor         KEYWORD2; Detectar a cor com base na leitura do LDR.
+
+calibrateRed        KEYWORD2; Calibra a cor vermelha do sensor LDR.
+
+calibrateGreen      KEYWORD2; Calibra a cor verde do sensor LDR.
+
+calibrateBlue       KEYWORD2; Calibra a cor azul do sensor LDR.
+
+calibrateLDR        KEYWORD2; Calibra o sensor LDR para garantir leituras precisas.
+
+# Tipos
+KEYWORD1            RESERVED_KEYWORD
+KEYWORD2            RESERVED_KEYWORD
