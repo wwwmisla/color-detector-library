@@ -10,9 +10,6 @@ Color_Detector ldrColor(pin_np, pin_ldr, num_leds);
 
 void setup()
 {
-    // Iniciando a comunicação serial
-    Serial.begin(9600);
-
     // Iniciando a biblioteca
     ldrColor.begin();
 }
